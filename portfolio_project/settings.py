@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-)n()4eh(gkg$xf-4a_l7s^3h&-5!$=%s)!s0rdzqa^obo485g+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['vinni-portfolio-sju7.onrender.com', '127.0.0.1', 'localhost']
+CSRF_TRUSTED_ORIGINS = [
+    'https://vinni-portfolio-sju7.onrender.com'
+]
 
 # Application definition
 
